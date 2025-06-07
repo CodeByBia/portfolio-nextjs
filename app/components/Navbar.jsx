@@ -11,11 +11,15 @@ const navLinks = [
 	},
 	{
 		title: "Sobre",
-		path: "/sobre",
+		path: "#about",
+	},
+	{
+		title: "Projetos",
+		path: "#projects",
 	},
 	{
 		title: "Contato",
-		path: "/contato",
+		path: "#contact",
 	},
 	{
 		title: "Jogo da Senha",
