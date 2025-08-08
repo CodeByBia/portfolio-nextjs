@@ -7,7 +7,7 @@ import { motion, useInView } from "framer-motion";
 const projectsData = [
   {
     id: 1,
-    title: "AZUR - FAP Softex",
+    title: "AZUR - FAP Softex - React, Trello",
     description: "Experience applying React in a project simulating a real company, enhancing both technical and teamwork skills.",
     image: "/images/projects/1.png",
     tag: ["All", "Web"],
@@ -16,7 +16,7 @@ const projectsData = [
   },
   {
     id: 2,
-    title: "Hackatons",
+    title: "Hackatons - Design, JS, Soft Skills",
     description: "1st place at Hacker Cidadão 2024 with a climate resilience platform using JavaScript, PHP, and Recife's API for dynamic maps of escape routes and shelters.",
     image: "/images/projects/2.png",
     tag: ["All", "Web"],
@@ -25,7 +25,7 @@ const projectsData = [
   },
   {
     id: 3,
-    title: "RecnPlay volunteer",
+    title: "RecnPlay volunteer - Adaptable, Cooperative",
     description: "It was three intense days of interacting with participants and teams, strengthening my communication, organization, and adaptability in a dynamic environment.",
     image: "/images/projects/3.png",
     tag: ["All", "Web"],
@@ -34,7 +34,7 @@ const projectsData = [
   },
   {
     id: 4,
-    title: "Lola & Lia",
+    title: "Lola & Lia - Design, Problem-solver, Leadership",
     description: "Educational climate game developed with Squad 40 at Porto Digital, awarded among 65 squads using Construct 3 and Figma.",
     image: "/images/projects/4.png",
     tag: ["All", "Mobile"],
@@ -43,7 +43,7 @@ const projectsData = [
   },
   {
     id: 5,
-    title: "SQL & PLSQL",
+    title: "SQL & PLSQL - Analytical, Methodical, Team-integrated",
     description: "Currently deepening my SQL and PL/SQL skills at FCx Labs through Porto Digital, with over 100 exercises and 400+ study slides shared on GitHub.",
     image: "/images/projects/5.png",
     tag: ["All", "Web"],
@@ -52,7 +52,7 @@ const projectsData = [
   },
   {
     id: 6,
-    title: "Automation project",
+    title: "Automation project - Manual testing, Test documentation, Bug registration, Jira...",
     description: "Using Python, Gherkin, and Behave, developed for the Software Testing course at Softex.",
     image: "/images/projects/6.png",
     tag: ["All", "Web"],

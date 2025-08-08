@@ -42,7 +42,7 @@ const MeSection = () => {
           <div>
             <Link
               href="/#contact"
-              className="px-6 inline-block py-3 w-full sm:w-fit rounded-full mr-4 bg-gradient-to-br from-primary-500 to-secondary-500 hover:bg-slate-200 text-white"
+              className="px-6 py-3 rounded-full bg-gradient-to-br from-primary-700 to-secondary-900 hover:bg-gray-400 hover:bg-opacity-70 text-white transition"           
             >
               Hire Me
             </Link>

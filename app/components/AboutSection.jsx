@@ -2,6 +2,7 @@
 import React, { useTransition, useState } from "react";
 import Image from "next/image";
 import TabButton from "./TabButton";
+import Link from 'next/link';
 
 const TAB_DATA = [
   {
@@ -10,7 +11,7 @@ const TAB_DATA = [
     content: (
       <ul className="list-disc pl-2">
         <li>Test Software</li>
-        <li>QA</li>
+        <li>QA with Selenium and Gherkin</li>
         <li>SQL & PLSQL</li>
         <li>JavaScript</li>
         <li>React</li>
@@ -24,6 +25,7 @@ const TAB_DATA = [
       <ul className="list-disc pl-2">
         <li>Internet Systems, UNICAP</li>
         <li>Softex's Training Program - React</li>
+        <li>Softex's Training Program - Test Software (QA)</li>
       </ul>
     ),
   },
@@ -32,8 +34,9 @@ const TAB_DATA = [
     id: "certifications",
     content: (
       <ul className="list-disc pl-2">
-        <li></li>
-        <li></li>
+        <li>
+         <Link href="https://www.linkedin.com/in/beatriz-martinsprofile/details/certifications/">Clique para ver minhas certificações no Linkedin!</Link>
+        </li>
       </ul>
     ),
   },
