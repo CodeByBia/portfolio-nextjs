@@ -34,8 +34,8 @@ const projectsData = [
   },
   {
     id: 4,
-    title: "Lola & Lia - Design, Problem-solver, Leadership",
-    description: "Educational climate game developed with Squad 40 at Porto Digital, awarded among 65 squads using Construct 3 and Figma.",
+    title: "Lola & Lia - Games, Design, Problem-solver, Leadership",
+    description: "Educational climate game developed with Squad 40 at Porto Digital, awarded among 65 squads using Construct 3 and Figma. We also presented it at Campus Party, the world's largest innovation event!! ",
     image: "/images/projects/4.png",
     tag: ["All", "Mobile"],
     gitUrl: "/",

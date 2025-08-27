@@ -10,11 +10,12 @@ const TAB_DATA = [
     id: "skills",
     content: (
       <ul className="list-disc pl-2">
+        <li>Design</li>
+        <li>JavaScript</li>
         <li>Test Software</li>
+        <li>React</li>
         <li>QA with Selenium and Gherkin</li>
         <li>SQL & PLSQL</li>
-        <li>JavaScript</li>
-        <li>React</li>
       </ul>
     ),
   },
@@ -30,16 +31,19 @@ const TAB_DATA = [
     ),
   },
   {
-    title: "Certifications",
-    id: "certifications",
+    title: "graduation",
+    id: "graduation",
     content: (
       <ul className="list-disc pl-2">
         <li>
-         <Link href="https://www.linkedin.com/in/beatriz-martinsprofile/details/certifications/">Clique para ver minhas certificações no Linkedin!</Link>
+          <Link href="https://portal.unicap.br/w/sistemas-para-internet#presencial/sobre_o_curso">Click to know more about Internet Systems</Link>
         </li>
+        <li>Some of the most essential courses I have taken so far in my graduation include: Accessible Web Systems Development, Design Thinking, Mobile Application Programming, and Systems Security and Auditing.
+</li>
       </ul>
     ),
-  },
+  }
+    
 ];
 
 const AboutSection = () => {
@@ -80,11 +84,11 @@ const AboutSection = () => {
               Education{" "}
             </TabButton>
             <TabButton
-              selectTab={() => handleTabChange("certifications")}
-              active={tab === "certifications"}
+              selectTab={() => handleTabChange("graduation")}
+              active={tab === "graduation"}
             >
               {" "}
-              Certifications{" "}
+              About my Graduation{" "}
             </TabButton>
           </div>
           <div className="mt-8">
